@@ -3,7 +3,6 @@ import requests
 API_KEY = "AIzaSyAANZTUdJRXgdcmhjWZDbWIxXgo5MhIksY"
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
 
-
 def summarize_text_with_gemini(text: str) -> str:
     headers = {"Content-Type": "application/json"}
     data = {
